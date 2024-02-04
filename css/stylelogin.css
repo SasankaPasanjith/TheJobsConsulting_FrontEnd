@@ -1,15 +1,17 @@
 
-#patientLogo{
-    width: 15%;
-    height: 200px;
-    cursor: pointer;
-}
-
-#doctorLogo{
-    width: 15%;
-    height: 200px;
-    cursor: pointer;
-}
+body::before {
+    display: block;
+    content: '';
+    height: 80px;
+  }
+  
+  
+  logo{
+      float:left;
+      width:120px;
+      height:auto;
+      position: static;
+  }
 
 #loginbtns{
     display: flex;
@@ -17,7 +19,5 @@
     gap: 10%;
     margin-top: 20px;
 }
-body{ background-color: beige;
-
-    
+body{ background-color: #212529;
 }
