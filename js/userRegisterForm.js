@@ -5,7 +5,7 @@ form.addEventListener("submit", async (event) => {
 
   let url = "http://localhost:8085/api/V3/registerUser";
 
-  let name = document.getElementById("formName").value;
+  let user_name = document.getElementById("formName").value;
 
   let mobileNumber = document.getElementById("formMobile").value;
 
@@ -20,7 +20,7 @@ form.addEventListener("submit", async (event) => {
   }
 
   let customerDetails = {
-    name: name,
+    name: user_name,
     mobileNo: mobileNumber,
     password,
     email: email,
