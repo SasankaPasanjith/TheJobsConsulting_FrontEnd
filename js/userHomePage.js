@@ -41,7 +41,7 @@ let renderConsultantsDetails = (data) => {
         <h3 class="card-title">${consultant.name}</h3>
         <p class="card-text">
         <p><strong>Experience:</strong> ${consultant.experience}</p>
-        <p><strong>Feild:</strong> ${consultant.field}</p>
+        <p><strong>Field:</strong> ${consultant.field}</p>
         <p><strong>Email:</strong> ${consultant.email}</p>
         <p><strong>Contact Number:</strong> ${consultant.mobileNo}</p>
         <p><strong>Available from:</strong> ${consultant.appointmentFromTime} (24 hours)</p>
