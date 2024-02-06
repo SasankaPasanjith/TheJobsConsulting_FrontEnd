@@ -45,7 +45,7 @@ form.addEventListener("submit", async (event) => {
 });
 
 let cheakUserOrAdmin = async (uuid) => {
-  let url = `http://localhost:8085/api/V3/viewUser?key=${uuid}`;
+  let url = `http://localhost:8085//api//V3//viewUser?key=${uuid}`;
   let userDeatils = await fetch(url);
 
   userDeatils = await userDeatils.json();
